@@ -23,6 +23,7 @@ section.top-page {
     background-size: cover;
     height: 80vh;
 }
+
 /* Titre principal */
 .big-title {
     color: white;
@@ -115,7 +116,8 @@ nav.nav li a {
     font-size: 25px;
     text-decoration: underline;
 }
-/* Menu de naviguation */
+/* Bas de page */
+
 footer {
     display: flex;
     justify-content: space-between;
