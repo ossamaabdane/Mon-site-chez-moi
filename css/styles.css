@@ -1,0 +1,129 @@
+
+*{
+}
+body{
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #b6f5faa5;
+}
+header img {
+    width: 180px;
+} 
+
+section.top-page { 
+    background: url(../Photo_ecole.jpeg);
+    background-size: cover;
+    height: 80vh;
+}
+/* Titre principal */
+.big-title {
+    color: white;
+    font-size: 40px;
+    padding: 20px 50px;
+}
+
+/* Menu de naviguation */
+
+nav.nav {
+    font-weight: bold;
+    width: 300px;
+    display: flex;
+    list-style: none ;
+    justify-content: space-between;
+    margin-left: 60px;
+
+}
+nav.nav li a {
+    color: white;
+    text-decoration: none ; 
+}
+
+/* MON */
+
+.MON {
+    margin: 100px ;
+
+}
+.section-title {
+    font-size: 50px;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #d4eef4;
+    width: 50px ;
+    height: 7px;
+    bottom: 0;
+}
+
+.mons {
+    background-color: aquamarine;
+    min-height: 500px ;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.mon-box{
+    position: relative;
+    background-size: cover ;
+    background-position: center;
+    min-width: 350px ;
+    height: 500px ;
+    flex: 1 ; 
+}
+
+.mon1 {
+    background-image:url( ../App-script.png)
+}
+
+.mon2 {
+    background-image:url( ../Design.webp) 
+}
+
+.pok1 {
+    background-image:url( ../Site.png)
+}
+
+.pok2 {
+    background-image:url( ../Point.png)
+}
+
+.mon-details{
+    position: absolute;
+    width: 100% ;
+    bottom: 0 ;
+    background-color: #b4edfaa2 ;
+    text-align: center ;
+}
+
+.mon-name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sous-titre {
+    font-size: 25px;
+    text-decoration: underline;
+}
+/* Menu de naviguation */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+footer a.cgv{
+    text-decoration: none;
+    color: black ;
+}
